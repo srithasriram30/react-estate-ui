@@ -21,7 +21,7 @@ const Navbar = () => {
             <div className="menuIcon" onClick={() => setOpen((prev) => !prev)}>
               <img src="/menu.png" alt="hamburger menu" />
             </div>
-            <div className="menu" className={open? "menu active" : "menu"}>
+            <div className={open? "menu active" : "menu"}>
             <a href="/">Home</a>
             <a href="/">About</a>
             <a href="/">Contact</a>
